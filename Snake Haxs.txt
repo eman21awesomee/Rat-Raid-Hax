@@ -1,0 +1,5 @@
+To use, press the star in the url bar and then click the edit button. Name it what ever but put this in the url:
+
+javascript:(function () {req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeCustomMenuStuff/main/custom.js'); req.onload = function() { eval(this.responseText + 'snake.more_menu();'); }; req.send();})()
+
+Click done. Search "snake" in browser to get to Snake, the game we are hacking. The the blookmarklet to activate the hacks. Go to settings and enjoy!
